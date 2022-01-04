@@ -1,0 +1,104 @@
+/* conteúdo principal deve ocupar a tela inteira */
+/* incluir links das redes sociais */
+/* fazer página admin para gerenciar os trabalhos que irão aparecer */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Unica+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+}
+
+/* CABEÇALHO */
+.cabecalho {
+    background-color: #16161d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.logo-cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.texto-cabecalho {
+    display: flex;
+    flex-direction: column;
+    
+}
+.titulo-cabecalho {
+    font-family: 'Agency FB', sans-serif;
+    color: rgb(212, 196, 255);
+    font-size: x-large;
+}
+
+.subtitulo-cabecalho {
+    font-family: 'Unica One', sans-serif;
+    color: rgb(212, 196, 255);
+    font-size: small;
+}
+.imagem-cabecalho {
+    height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(212, 196, 255);
+    font-weight: bold;
+}
+
+/* CONTEÚDO PRINCIPAL */
+
+.conteudo-principal {
+    background: linear-gradient(68.15deg, #610677 16.62%, #16161d 85.61%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+.conteudo-principal-imagem {
+    height: 400px;
+    -webkit-mask-image: linear-gradient(to right, transparent 25%, black 100%);
+    background-image: url('assets/mega.jpg');
+}
+
+.conteudo-principal-titulo {
+    font-family: 'Agency FB', sans-serif;
+    color: rgb(212, 196, 255);
+    font-size: 72px;
+    font-weight: 200px;
+}
+
+.conteudo-portifolio{
+    background: #28203e;
+}
+
+.conteudo-sobre {
+    background: #16161d;
+}
+
+.conteudo-orcamento {
+    background-color: #610677;
+}
+
+
+/* FOOTER */
+.conteudo-footer {
+    padding-top: 48px;
+    background: #16161d;
+}
