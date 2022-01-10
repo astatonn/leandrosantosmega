@@ -54,7 +54,8 @@
                         <p class="servico-informacao">
                             É a atividade pela qual vários canais de áudio se combinam.
                         </p>
-                    </div> <!--/.MIXAGEM-->
+                    </div>
+                    <!--/.MIXAGEM-->
                 </div>
                 <div class="conteudo-servico">
                     <div class="servico">
@@ -63,16 +64,18 @@
                         <p class="servico-informacao">
                             É o processo de preparar e transferir o áudio gravado em uma mídia que contém a mixagem final de um conjunto de faixas de áudio.
                         </p>
-                    </div> <!--/.MASTERIZAÇÃO-->
+                    </div>
+                    <!--/.MASTERIZAÇÃO-->
                 </div>
                 <div class="conteudo-servico">
                     <div class="servico">
                         <img src="assets/img/microfone.png" alt="ícone de gravação de som" class="servico-imagem">
                         <h3 class="servico-titulo">Gravação</h3>
                         <p class="servico-informacao">
-                           É o processo de captura de áudio dos elementos de uma música
+                            É o processo de captura de áudio dos elementos de uma música
                         </p>
-                    </div> <!--/.GRAVAÇÃO-->
+                    </div>
+                    <!--/.GRAVAÇÃO-->
                 </div>
                 <div class="conteudo-servico">
                     <div class="servico">
@@ -81,17 +84,60 @@
                         <p class="servico-informacao">
                             É o processo de preparação para a mixagem de uma faixa de áudio, eliminando ruídos que possam prejudicar as demais etapas de confecção de uma faixa de áudio
                         </p>
-                    </div> <!--/.EDIÇÃO-->
+                    </div>
+                    <!--/.EDIÇÃO-->
                 </div>
             </div>
             <button class="btn btn-border">Saiba Mais</button>
-        
+
         </section>
 
         <!-- PORTIFÓLIO -->
         <section class="conteudo-portifolio">
-            <h2 class="conteudo-subtitulo">Portifólio</h2>
-            <!-- <img class="conteudo-carrossel-portifolio" src="http://learnenglish.britishcouncil.org/sites/podcasts/files/2021-10/RS6715_492969113-hig.jpg" alt="Carrossel com capas dos álbuns do Leandro Santos"> -->
+            <h2 class="conteudo-subtitulo">Últimos trabalhos</h2>
+            <p class="conteudo-subhead-texto">Ouça os últimos trabalhos nas principais streams de áudio do mercado</p>
+            <div class="ultimos-trabalhos">
+                <div class="conteudo-ultimo-trabalho">
+                    <div class="musica">
+                        <img src="assets/img/portifolio/mundo_real.jpeg" alt="ícone de mixagem de som" class="portifolio-imagem">
+                        <h4 class="musica-titulo">Arthur Pares - Mundo Real</h4>
+                        <ul>
+                            <li>
+                                <a href="#" class="musica-item spotify">
+                                    <span class="texto-stream">Spotify</span>
+                                    <img src="assets/img/icones/spotify.svg" alt="ícone do youtube" class="icone-stream">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="musica-item deezer">
+                                    <span class="texto-stream">Deezer</span>
+                                    <img src="assets/img/icones/deezer.svg" alt="ícone do youtube" class="icone-stream">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="musica-item tidal">
+                                    <span class="texto-stream">Tidal</span>
+                                    <img src="assets/img/icones/tidal.svg" alt="ícone do youtube" class="icone-stream">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="musica-item apple">
+                                    <span class="texto-stream">iTunes</span>
+                                    <img src="assets/img/icones/itunes.svg" alt="ícone do youtube" class="icone-stream">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="musica-item youtube">
+                                    <span class="texto-stream">YouTube</span>
+                                    <img src="assets/img/icones/youtube.svg" alt="ícone do youtube" class="icone-stream">
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
         </section>
 
         <!-- SOBRE -->
