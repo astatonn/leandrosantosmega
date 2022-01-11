@@ -66,13 +66,15 @@ body {
 /* CONTEÚDO PRINCIPAL */
 
 .conteudo-principal {
-    background: linear-gradient(68.15deg, #610677 16.62%, #16161d 85.61%);
+    background: linear-gradient(68.15deg, rgba(97, 6, 119,.7) 16.62%, rgba(22, 22, 29,.7) 85.61%), url('/leandrosantosmega/leandrosantosmega/assets/img/mega.JPG') no-repeat ;
+    background-size: cover;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     padding-top: 72px;
     padding-bottom: 72px;
+    
 }
 
 .conteudo-principal .btn {
@@ -156,6 +158,7 @@ body {
     border-top: 1px solid rgb(212, 196, 255);
     padding-top: 12px;
     color: #fff;
+    margin-bottom: 25px;
 
 }
 
@@ -217,12 +220,14 @@ body {
     background: #28203e;
     display: flex;
     flex-direction: column;
-    align-items: center;   
+    align-items: center; 
+      
 }
 
 .ultimos-trabalhos {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .conteudo-ultimo-trabalho {
@@ -255,6 +260,17 @@ body {
     margin: 0;
     font-size: 14px;
     opacity: 0;
+}
+
+.carrossel-trabalhos {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 42px;
+    margin-right: 42px;
+    margin-bottom: 72px;
+    margin-top: 15px;
 }
 
 .musica-item {
@@ -341,9 +357,6 @@ ul {
     width: 100px;
 }
 
-.conteudo-ultimo-trabalho a:hover img{
-    filter:brightness(100%);
-}
 
 .conteudo-ultimo-trabalho:hover a {
     left: 10%;
@@ -362,11 +375,17 @@ ul {
 }
 
 
+/* SOBRE */
 .conteudo-sobre {
     background: #16161d;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
+
+
+
 
 .conteudo-orcamento {
     background-color: #610677;
