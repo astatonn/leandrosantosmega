@@ -1,0 +1,46 @@
+/* SMALL DEVICES */
+@media only screen and (max-width: 767px) {
+    .cabecalho-menu-completo {
+        display: flex;
+    }
+
+    .conteudo-principal-imagem {
+        display: none;
+    }
+
+    .servico-titulo {
+        font-size: 1.5em;
+    }
+
+    .servico-informacao {
+        font-size: 1em;
+    }
+
+    .conteudo {
+        width: 100%;
+    }
+
+    .conteudo-sobre-imagem {
+        display: none;
+    }
+
+    .conteudo-sobre {
+        background: linear-gradient(68.15deg, rgba(97, 6, 119,.7) 16.62%, rgba(22, 22, 29,.7) 85.61%), url('/leandrosantosmega/leandrosantosmega/assets/img/homestudio.JPG') no-repeat ;
+        background-size: cover;
+    }
+
+    .cabecalho{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 496px){
+    .servico-titulo{
+        font-size: 1em;
+    }
+
+    .servico-informacao {
+        font-size: 0.7em;
+    }
+}

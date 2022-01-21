@@ -10,6 +10,7 @@
     <!-- LINKS EXTERNOS -->
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://allfont.net/allfont.css?fonts=agency-fb" rel="stylesheet" type="text/css" />
 
@@ -27,22 +28,32 @@
                 <p class="subtitulo-cabecalho">Engenheiro de Áudio</p>
             </div>
         </div>
-
-        <nav class="cabecalho-menu">
-            <a href="#" class="cabecalho-menu-item">Home</a>
-            <a href="#" class="cabecalho-menu-item">Serviços</a>
-            <a href="#" class="cabecalho-menu-item">Portifólio</a>
-            <a href="#" class="cabecalho-menu-item">Sobre</a>
-            <a href="#" class="cabecalho-menu-item">Orçamento</a>
-        </nav>
+        <div class="cabecalho-menu-completo">
+            <nav class="cabecalho-menu">
+                <a href="#" class="cabecalho-menu-item">Home</a>
+                <a href="#" class="cabecalho-menu-item">Serviços</a>
+                <a href="#" class="cabecalho-menu-item">Portifólio</a>
+                <a href="#" class="cabecalho-menu-item">Sobre</a>
+                <a href="#" class="cabecalho-menu-item">Orçamento</a>
+                <a href="#" class="cabecalho-menu-item">Ouça</a>
+            </nav>
+            <nav class="cabecalho-menu-redes-sociais">
+                <a href="#" class="cabecalho-menu-item"><img src="assets/img/icones/tidal.svg" alt="ícone do tidal" class="icone-stream"></a>
+                <a href="#" class="cabecalho-menu-item"><img src="assets/img/icones/tidal.svg" alt="ícone do tidal" class="icone-stream"></a>
+            </nav>
+        </div>
     </header>
 
     <main class="conteudo">
         <!-- HOME -->
         <section class="conteudo-principal">
             <div class="conteudo-principal-escrito">
-                <h1 class="conteudo-principal-titulo">LEANDRO SANTOS</h1>
-                <h2 class="conteudo-principal-subtitulo">Engenheiro de Áudio</h2>
+                <h1 class="conteudo-principal-titulo">MAIS DE 1M EM REPRODUÇÕES</h1>
+                <h2 class="conteudo-principal-subtitulo">
+                <!-- "Mixagem e masterização não se tratam apenas de girar botões, mas sim de compreender a música, e através da técnica, e criatividade, trazer mais emoção e vida a ela." -->
+                "Mixagem: a sutil arte de trazer vida à música, através de movimentos técnicos conscientes."
+            <p class="conteudo-principal-subtitulo-nome">Leandro Santos</p>
+            </h2>
                 <button class="btn btn-border">Saiba Mais</button>
             </div>
             <img class="conteudo-principal-imagem" src="assets/img/logonome.png" alt="Imagem de Perfil do Leandro Santos">
@@ -51,14 +62,13 @@
         <!-- SERVIÇOS -->
         <section class="conteudo-servicos">
             <h2 class="conteudo-subtitulo">Serviços</h2>
-            <p class="conteudo-subhead-texto">Conheça as opções disponíveis</p>
             <div class="servicos-disponiveis">
                 <div class="conteudo-servico">
                     <div class="servico">
                         <img src="assets/img/mixagem.png" alt="ícone de mixagem de som" class="servico-imagem">
                         <h3 class="servico-titulo">Mixagem</h3>
                         <p class="servico-informacao">
-                            É a atividade pela qual vários canais de áudio se combinam.
+                            A mixagem tem por objetivo trazer uma combinação equilibrada e coesa de todos os elementos que foram gravados e fazem parte daquela música enfatizando todas as ideias e emoções propostas pelo artista e seu produtor musical.
                         </p>
                     </div>
                     <!--/.MIXAGEM-->
@@ -68,27 +78,18 @@
                         <img src="assets/img/masterizacao.png" alt="ícone de masterização de som" class="servico-imagem">
                         <h3 class="servico-titulo">Masterização</h3>
                         <p class="servico-informacao">
-                            É o processo de preparar e transferir o áudio gravado em uma mídia que contém a mixagem final de um conjunto de faixas de áudio.
+                            O objetivo da masterização é balancear uma faixa estéreo ou stems, preparando-a para ser reproduzida em todos os dispositivos e formatos de mídia.
                         </p>
                     </div>
                     <!--/.MASTERIZAÇÃO-->
                 </div>
+
                 <div class="conteudo-servico">
                     <div class="servico">
-                        <img src="assets/img/microfone.png" alt="ícone de gravação de som" class="servico-imagem">
-                        <h3 class="servico-titulo">Gravação</h3>
+                        <img src="assets/img/consultoria.png" alt="ícone de edição de imagem" class="servico-imagem">
+                        <h3 class="servico-titulo">Consultoria</h3>
                         <p class="servico-informacao">
-                            É o processo de captura de áudio dos elementos de uma música
-                        </p>
-                    </div>
-                    <!--/.GRAVAÇÃO-->
-                </div>
-                <div class="conteudo-servico">
-                    <div class="servico">
-                        <img src="assets/img/edicao.png" alt="ícone de edição de imagem" class="servico-imagem">
-                        <h3 class="servico-titulo">Edição</h3>
-                        <p class="servico-informacao">
-                            É o processo de preparação para a mixagem de uma faixa de áudio, eliminando ruídos que possam prejudicar as demais etapas de confecção de uma faixa de áudio
+                            É um serviço cuja finalidade é analisar e propor melhorias naquilo que o mentorado procura, seja produção musical, mixagem, masterização ou carreira.
                         </p>
                     </div>
                     <!--/.EDIÇÃO-->
@@ -101,17 +102,18 @@
         <!-- PORTIFÓLIO -->
         <section class="conteudo-portifolio">
             <h2 class="conteudo-subtitulo">Últimos trabalhos</h2>
-            <p class="conteudo-subhead-texto">Ouça os últimos trabalhos nas principais streams de áudio do mercado</p>
+            <p class="conteudo-subhead-texto">Ouça meus trabalhos nas principais plataformas de streaming</p>
             <div class="carrossel-trabalhos">
-                
-                <!-- MUNDO REAL -->
+
+
+                <!-- A Vida É Bem Melhor -->
                 <div class="ultimos-trabalhos">
-                    <div class="conteudo-ultimo-trabalho">        
-                        <img src="assets/img/portifolio/mundo_real.jpeg" alt="ícone de mixagem de som" class="portifolio-imagem">
-                        <h4 class="musica-titulo">Arthur Pares - Mundo Real</h4>
+                    <div class="conteudo-ultimo-trabalho">
+                        <img src="assets/img/portifolio/a_vida_e_bem_melhor.jpg" alt="ícone de mixagem de som" class="portifolio-imagem">
+                        <h4 class="musica-titulo">Arthur Pares - A Vida É Bem Melhor</h4>
                         <ul>
                             <li>
-                                <a href="#" class="musica-item spotify">
+                                <a href="https://open.spotify.com/track/3MMJpPPTs2bfQlu6UE2TwJ?si=a309eeb373fb4dbf" class="musica-item spotify">
                                     <span class="texto-stream">Spotify</span>
                                     <img src="assets/img/icones/spotify.svg" alt="ícone do youtube" class="icone-stream">
                                 </a>
@@ -123,7 +125,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="musica-item tidal">
+                                <a href="https://tidal.com/browse/track/201822353" class="musica-item tidal">
                                     <span class="texto-stream">Tidal</span>
                                     <img src="assets/img/icones/tidal.svg" alt="ícone do youtube" class="icone-stream">
                                 </a>
@@ -135,7 +137,130 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="musica-item youtube">
+                                <a href="https://www.youtube.com/watch?v=dw0DSUW0hXU" class="musica-item youtube">
+                                    <span class="texto-stream">YouTube</span>
+                                    <img src="assets/img/icones/youtube.svg" alt="ícone do youtube" class="icone-stream">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+                <!-- Meu Ladin -->
+                <div class="ultimos-trabalhos">
+                    <div class="conteudo-ultimo-trabalho">
+                        <img src="assets/img/portifolio/meu_ladin.jpg" alt="ícone de mixagem de som" class="portifolio-imagem">
+                        <h4 class="musica-titulo">Gustavo Bing - Meu Ladin</h4>
+                        <ul>
+                            <li>
+                                <a href="https://open.spotify.com/track/6GfWC4rxJd5YZ15tqXg2E0?si=a7876b1dc2464dc4" class="musica-item spotify">
+                                    <span class="texto-stream">Spotify</span>
+                                    <img src="assets/img/icones/spotify.svg" alt="ícone do youtube" class="icone-stream">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="musica-item deezer">
+                                    <span class="texto-stream">Deezer</span>
+                                    <img src="assets/img/icones/deezer.svg" alt="ícone do youtube" class="icone-stream">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://tidal.com/browse/track/196150454" class="musica-item tidal">
+                                    <span class="texto-stream">Tidal</span>
+                                    <img src="assets/img/icones/tidal.svg" alt="ícone do youtube" class="icone-stream">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="musica-item apple">
+                                    <span class="texto-stream">iTunes</span>
+                                    <img src="assets/img/icones/itunes.svg" alt="ícone do youtube" class="icone-stream">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=dy4i1SP1vQE" class="musica-item youtube">
+                                    <span class="texto-stream">YouTube</span>
+                                    <img src="assets/img/icones/youtube.svg" alt="ícone do youtube" class="icone-stream">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <!-- Seu Sorrir -->
+                <div class="ultimos-trabalhos">
+                    <div class="conteudo-ultimo-trabalho">
+                        <img src="assets/img/portifolio/seu_sorrir.jpg" alt="ícone de mixagem de som" class="portifolio-imagem">
+                        <h4 class="musica-titulo">João Mar - Seu Sorrir</h4>
+                        <ul>
+                            <li>
+                                <a href="https://open.spotify.com/track/1WLlKl0nO4otZShd2qUBQV?si=0939d77ccaf54923" class="musica-item spotify">
+                                    <span class="texto-stream">Spotify</span>
+                                    <img src="assets/img/icones/spotify.svg" alt="ícone do youtube" class="icone-stream">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="musica-item deezer">
+                                    <span class="texto-stream">Deezer</span>
+                                    <img src="assets/img/icones/deezer.svg" alt="ícone do youtube" class="icone-stream">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://tidal.com/browse/track/199678358" class="musica-item tidal">
+                                    <span class="texto-stream">Tidal</span>
+                                    <img src="assets/img/icones/tidal.svg" alt="ícone do youtube" class="icone-stream">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="musica-item apple">
+                                    <span class="texto-stream">iTunes</span>
+                                    <img src="assets/img/icones/itunes.svg" alt="ícone do youtube" class="icone-stream">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=wYbEfvL9Tp4" class="musica-item youtube">
+                                    <span class="texto-stream">YouTube</span>
+                                    <img src="assets/img/icones/youtube.svg" alt="ícone do youtube" class="icone-stream">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Bateu Saudade -->
+                <div class="ultimos-trabalhos">
+                    <div class="conteudo-ultimo-trabalho">
+                        <img src="assets/img/portifolio/a_vida_e_bem_melhor.JPG" alt="ícone de mixagem de som" class="portifolio-imagem">
+                        <h4 class="musica-titulo">Arthur Pares ft. Arthur Sthaphanato - Bateu Saudade</h4>
+                        <ul>
+                            <li>
+                                <a href="https://open.spotify.com/track/5y6FqnIRObGakcu0tAdwLY?si=bc1c40e59dc04c9a" class="musica-item spotify">
+                                    <span class="texto-stream">Spotify</span>
+                                    <img src="assets/img/icones/spotify.svg" alt="ícone do youtube" class="icone-stream">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="musica-item deezer">
+                                    <span class="texto-stream">Deezer</span>
+                                    <img src="assets/img/icones/deezer.svg" alt="ícone do youtube" class="icone-stream">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://tidal.com/browse/track/201822355" class="musica-item tidal">
+                                    <span class="texto-stream">Tidal</span>
+                                    <img src="assets/img/icones/tidal.svg" alt="ícone do youtube" class="icone-stream">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="musica-item apple">
+                                    <span class="texto-stream">iTunes</span>
+                                    <img src="assets/img/icones/itunes.svg" alt="ícone do youtube" class="icone-stream">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=nUMaq6XwBa8" class="musica-item youtube">
                                     <span class="texto-stream">YouTube</span>
                                     <img src="assets/img/icones/youtube.svg" alt="ícone do youtube" class="icone-stream">
                                 </a>
@@ -145,93 +270,14 @@
                 </div>
 
 
-                    <div class="ultimos-trabalhos">
-                        <div class="conteudo-ultimo-trabalho">
-                            <!-- MUNDO REAL -->
-                            <img src="assets/img/portifolio/mundo_real.jpeg" alt="ícone de mixagem de som" class="portifolio-imagem">
-                            <h4 class="musica-titulo">Arthur Pares - Mundo Real</h4>
-                            <ul>
-                                <li>
-                                    <a href="#" class="musica-item spotify">
-                                        <span class="texto-stream">Spotify</span>
-                                        <img src="assets/img/icones/spotify.svg" alt="ícone do youtube" class="icone-stream">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="musica-item deezer">
-                                        <span class="texto-stream">Deezer</span>
-                                        <img src="assets/img/icones/deezer.svg" alt="ícone do youtube" class="icone-stream">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="musica-item tidal">
-                                        <span class="texto-stream">Tidal</span>
-                                        <img src="assets/img/icones/tidal.svg" alt="ícone do youtube" class="icone-stream">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="musica-item apple">
-                                        <span class="texto-stream">iTunes</span>
-                                        <img src="assets/img/icones/itunes.svg" alt="ícone do youtube" class="icone-stream">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="musica-item youtube">
-                                        <span class="texto-stream">YouTube</span>
-                                        <img src="assets/img/icones/youtube.svg" alt="ícone do youtube" class="icone-stream">
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        </div>
-                        
-                    <div class="ultimos-trabalhos">
-                        <div class="conteudo-ultimo-trabalho">
-                            <!-- MUNDO REAL -->
-                            <img src="assets/img/portifolio/mundo_real.jpeg" alt="ícone de mixagem de som" class="portifolio-imagem">
-                            <h4 class="musica-titulo">Arthur Pares - Mundo Real</h4>
-                            <ul>
-                                <li>
-                                    <a href="#" class="musica-item spotify">
-                                        <span class="texto-stream">Spotify</span>
-                                        <img src="assets/img/icones/spotify.svg" alt="ícone do youtube" class="icone-stream">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="musica-item deezer">
-                                        <span class="texto-stream">Deezer</span>
-                                        <img src="assets/img/icones/deezer.svg" alt="ícone do youtube" class="icone-stream">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="musica-item tidal">
-                                        <span class="texto-stream">Tidal</span>
-                                        <img src="assets/img/icones/tidal.svg" alt="ícone do youtube" class="icone-stream">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="musica-item apple">
-                                        <span class="texto-stream">iTunes</span>
-                                        <img src="assets/img/icones/itunes.svg" alt="ícone do youtube" class="icone-stream">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="musica-item youtube">
-                                        <span class="texto-stream">YouTube</span>
-                                        <img src="assets/img/icones/youtube.svg" alt="ícone do youtube" class="icone-stream">
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        </div>
-                        <!-- MUNDO REAL -->
+                <!-- Num Love -->
                 <div class="ultimos-trabalhos">
-                    <div class="conteudo-ultimo-trabalho">        
-                        <img src="assets/img/portifolio/mundo_real.jpeg" alt="ícone de mixagem de som" class="portifolio-imagem">
-                        <h4 class="musica-titulo">Arthur Pares - Mundo Real</h4>
+                    <div class="conteudo-ultimo-trabalho">
+                        <img src="assets/img/portifolio/num_love.jpg" alt="ícone de mixagem de som" class="portifolio-imagem">
+                        <h4 class="musica-titulo">João Mar - Num Love</h4>
                         <ul>
                             <li>
-                                <a href="#" class="musica-item spotify">
+                                <a href="https://open.spotify.com/track/0pK8qKmlnSy5tbrGdj3iwY?si=fae06e61154143a4" class="musica-item spotify">
                                     <span class="texto-stream">Spotify</span>
                                     <img src="assets/img/icones/spotify.svg" alt="ícone do youtube" class="icone-stream">
                                 </a>
@@ -255,96 +301,97 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="musica-item youtube">
+                                <a href="https://www.youtube.com/watch?v=YiU5rPZWmFQ" class="musica-item youtube">
                                     <span class="texto-stream">YouTube</span>
                                     <img src="assets/img/icones/youtube.svg" alt="ícone do youtube" class="icone-stream">
                                 </a>
                             </li>
                         </ul>
                     </div>
+                </div>
+
+                <!-- Sempre Vai Ser -->
+                <div class="ultimos-trabalhos">
+                    <div class="conteudo-ultimo-trabalho">
+                        <img src="assets/img/portifolio/sempre_vai_ser.jpg" alt="ícone de mixagem de som" class="portifolio-imagem">
+                        <h4 class="musica-titulo">Arthur Pares - Sempre Vai Ser</h4>
+                        <ul>
+                            <li>
+                                <a href="https://open.spotify.com/track/6ua8nggqRf47NM52L9TxXB?si=f61b0bb3f8804130" class="musica-item spotify">
+                                    <span class="texto-stream">Spotify</span>
+                                    <img src="assets/img/icones/spotify.svg" alt="ícone do youtube" class="icone-stream">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="musica-item deezer">
+                                    <span class="texto-stream">Deezer</span>
+                                    <img src="assets/img/icones/deezer.svg" alt="ícone do youtube" class="icone-stream">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://tidal.com/browse/track/198342129" class="musica-item tidal">
+                                    <span class="texto-stream">Tidal</span>
+                                    <img src="assets/img/icones/tidal.svg" alt="ícone do youtube" class="icone-stream">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="musica-item apple">
+                                    <span class="texto-stream">iTunes</span>
+                                    <img src="assets/img/icones/itunes.svg" alt="ícone do youtube" class="icone-stream">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=j1oCXTJ4LAc" class="musica-item youtube">
+                                    <span class="texto-stream">YouTube</span>
+                                    <img src="assets/img/icones/youtube.svg" alt="ícone do youtube" class="icone-stream">
+                                </a>
+                            </li>
+                        </ul>
                     </div>
+                </div>
 
-                    <div class="ultimos-trabalhos">
-                        <div class="conteudo-ultimo-trabalho">
-                            <!-- MUNDO REAL -->
-                            <img src="assets/img/portifolio/mundo_real.jpeg" alt="ícone de mixagem de som" class="portifolio-imagem">
-                            <h4 class="musica-titulo">Arthur Pares - Mundo Real</h4>
-                            <ul>
-                                <li>
-                                    <a href="#" class="musica-item spotify">
-                                        <span class="texto-stream">Spotify</span>
-                                        <img src="assets/img/icones/spotify.svg" alt="ícone do youtube" class="icone-stream">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="musica-item deezer">
-                                        <span class="texto-stream">Deezer</span>
-                                        <img src="assets/img/icones/deezer.svg" alt="ícone do youtube" class="icone-stream">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="musica-item tidal">
-                                        <span class="texto-stream">Tidal</span>
-                                        <img src="assets/img/icones/tidal.svg" alt="ícone do youtube" class="icone-stream">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="musica-item apple">
-                                        <span class="texto-stream">iTunes</span>
-                                        <img src="assets/img/icones/itunes.svg" alt="ícone do youtube" class="icone-stream">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="musica-item youtube">
-                                        <span class="texto-stream">YouTube</span>
-                                        <img src="assets/img/icones/youtube.svg" alt="ícone do youtube" class="icone-stream">
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        </div>
-                    <div class="ultimos-trabalhos">
-                        <div class="conteudo-ultimo-trabalho">
-                            <!-- MUNDO REAL -->
-                            <img src="assets/img/portifolio/mundo_real.jpeg" alt="ícone de mixagem de som" class="portifolio-imagem">
-                            <h4 class="musica-titulo">Arthur Pares - Mundo Real</h4>
-                            <ul>
-                                <li>
-                                    <a href="#" class="musica-item spotify">
-                                        <span class="texto-stream">Spotify</span>
-                                        <img src="assets/img/icones/spotify.svg" alt="ícone do youtube" class="icone-stream">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="musica-item deezer">
-                                        <span class="texto-stream">Deezer</span>
-                                        <img src="assets/img/icones/deezer.svg" alt="ícone do youtube" class="icone-stream">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="musica-item tidal">
-                                        <span class="texto-stream">Tidal</span>
-                                        <img src="assets/img/icones/tidal.svg" alt="ícone do youtube" class="icone-stream">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="musica-item apple">
-                                        <span class="texto-stream">iTunes</span>
-                                        <img src="assets/img/icones/itunes.svg" alt="ícone do youtube" class="icone-stream">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="musica-item youtube">
-                                        <span class="texto-stream">YouTube</span>
-                                        <img src="assets/img/icones/youtube.svg" alt="ícone do youtube" class="icone-stream">
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <!-- ./FIM CARROSSEL -->
+                <!-- Meu Dengo -->
+                <div class="ultimos-trabalhos">
+                    <div class="conteudo-ultimo-trabalho">
+                        <img src="assets/img/portifolio/meu_dengo.jpg" alt="ícone de mixagem de som" class="portifolio-imagem">
+                        <h4 class="musica-titulo">João Mar - Meu Dengo</h4>
+                        <ul>
+                            <li>
+                                <a href="https://open.spotify.com/track/5FCZ14vCOikzChFdELioO2?si=e389775394bf4cf2" class="musica-item spotify">
+                                    <span class="texto-stream">Spotify</span>
+                                    <img src="assets/img/icones/spotify.svg" alt="ícone do youtube" class="icone-stream">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="musica-item deezer">
+                                    <span class="texto-stream">Deezer</span>
+                                    <img src="assets/img/icones/deezer.svg" alt="ícone do youtube" class="icone-stream">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://tidal.com/browse/track/205384315" class="musica-item tidal">
+                                    <span class="texto-stream">Tidal</span>
+                                    <img src="assets/img/icones/tidal.svg" alt="ícone do youtube" class="icone-stream">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="musica-item apple">
+                                    <span class="texto-stream">iTunes</span>
+                                    <img src="assets/img/icones/itunes.svg" alt="ícone do youtube" class="icone-stream">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=s0Jt7K9Dcgo" class="musica-item youtube">
+                                    <span class="texto-stream">YouTube</span>
+                                    <img src="assets/img/icones/youtube.svg" alt="ícone do youtube" class="icone-stream">
+                                </a>
+                            </li>
+                        </ul>
                     </div>
+                </div>
+
+
+            </div>
 
         </section>
 
@@ -355,51 +402,64 @@
                 <p class="conteudo-subhead-texto">Conheça mais sobre a vida do Leandro Santos</p>
             </div>
             <div class="sobre-conteudo">
-                <div class="conteudo-texto">
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. 
-                        It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
-                        Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, 
-                        looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, 
-                        and going through the cites of the word in classical literature, discovered the undoubtable source. 
-                        Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" 
-                        (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory 
-                        of ethics, very popular during the Renaissance. 
-                        The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-                        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. 
-                        Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced 
-                        in their exact original form, accompanied by English versions from the 1914 
-                        translation by H. Rackham</p>
+                <div class="conteudo-sobre-texto">
+                    <p> Nascido em 22 de janeiro de 1997, natural da cidade de Duque de Caxias, Rio de Janeiro, Leandro Santos reside em Canoas, cidade no entorno da grande Porto Alegre no Rio Grande do Sul.
+                        Despertou seu interesse musical com cerca de 7 anos de idade, influenciado por seu pai que era músico.
+                        Com 11 anos começou a estudar contrabaixo e, aos 13, foi aprovado no processo seletivo da escola de música
+                        Villa Lobos, no centro do Rio de Janeiro. Após o término de curso, continuou sua busca por conhecimento e crescimento
+                        musical no instrumento que o fascina, o contrabaixo. Em 2017, iniciou seus estudos e primeiros trabalhos voltados à produção musical.
+                        Devido ao crescimento do seu trabalho, no ano de 2019, tornou-se endorser da <a href="dmark.com">D'Mark</a>, uma das maiores fabricantes de instrumentos de Luthieria dentro e fora do Brasil.
+                        Ainda em 2019, despertou interesse pela engenharia de áudio, onde começou a se aprofundar no assunto realizando diversos curso
+                        no Brasil e no exterior. No ano seguinte, ingressou no mercado trabalhando diretamente como engenheiro de áudio. Em 2021, tornou-se afiliado da maior loja de plugins e softwares de áudio do Brasil, <a href="plugins.com.br">Plugins Br</a>.
+                        Atualmente, Leandro trabalha como engenheiro de áudio e vem realizando trabalhos para artistas nacionais e internacionais, proporcionando uma experiência única a cada música, impondo sua personalidade e trazendo a tona todas as ideias e emoções propostas por cada produtor musical ou artista. 
+
+
+                    </p>
+                </div>
+                <div class="conteudo-sobre-imagem">
+                    <img src="assets/img/profile.jpg" alt="Foto de Perfil do Leandro Santos, Engenheiro de Áudio">
                 </div>
             </div>
-            <!-- <img class="conteudo-sobre-imagem" src="http://learnenglish.britishcouncil.org/sites/podcasts/files/2021-10/RS6715_492969113-hig.jpg" alt="Foto de LEandro Santos"> -->
         </section>
 
         <!-- ORÇAMENTO -->
         <section class="conteudo-orcamento">
-            <h2 class="conteudo-subtitulo">Solicite um orçamento</h2>
-            <form class="conteudo-orcamento-formulario" action="#" method="POST">
+            <div class="conteudo-orcamento-escrito">
+                <h2 class="conteudo-subtitulo">Saiba Mais</h2>
+                <p class="conteudo-subhead-texto">Entre em contato para mais informações.</p>
+            </div>
 
-                <label for="firstname">Primeiro Nome</label>
-                <input type="text" name="firstname" id="firstname" placeholder="Primeiro Nome">
+            <form class="conteudo-orcamento-formulario" id="formularioinformacao"action="#" method="POST">
+                <div class="campo-orcamento">
+                    <label for="firstname">Nome Completo</label>
+                    <input type="text" name="name" id="name" placeholder="Nome Completo">
+                </div>
 
-                <label for="lastname">Último Nome</label>
-                <input type="text" name="lastname" id="lastname" placeholder="Último Nome">
-
-                <label for="telefone">Telefone</label>
-                <input type="tel" name="telefone" id="telefone" placeholder="">
-
-                <label for="email">E-mail</label>
-                <input type="email" name="email" id="email" placeholder="contato@provedor.com.br">
-
-                <input type="submit" value="Enviar">
+                <div class="campo-orcamento">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" name="telefone" id="telefone" placeholder="XX XXXXX-XXXX" text" name="firstname" id="firstname" placeholder="Primeiro Nome">
+                </div>
+                <div class="campo-orcamento">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="contato@provedor.com.br" text" name="firstname" id="firstname" placeholder="Primeiro Nome">
+                </div>
+                
+                <div class="campo-orcamento">
+                    <label for="descricao">Descreva sua Solicitação</label>
+                    <textarea id="descricao" name="descricao" placeholder="Descreva sua solicitação até 1000 caracteres" maxlength="1000" form="formularioinformacao" resizable="false"></textarea>
+                </div>
+                <div class="campo-orcamento-enviar">
+                    <input type="submit" value="Enviar" class="btn btn-border">
+                </div>
             </form>
+
         </section>
 
     </main>
     <footer class="conteudo-footer">
         <div class="conteudo-footer-copyright">
             <p>Copyright Leandro Santos 2022 &copy;. Todos os direitos Reservados</p>
-            <p>contato@leandrosantos.com.br</p>
+            <p>contato@leandrosmega.com</p>
         </div>
         <small class="conteudo-footer-dev">desenvolvido por <a href="mailto:lucas.lima.rk@gmail.com">astatonn</a></small>
     </footer>
