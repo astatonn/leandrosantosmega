@@ -30,12 +30,12 @@
         </div>
         <div class="cabecalho-menu-completo">
             <nav class="cabecalho-menu">
-                <a href="#" class="cabecalho-menu-item">Home</a>
-                <a href="#" class="cabecalho-menu-item">Serviços</a>
-                <a href="#" class="cabecalho-menu-item">Portifólio</a>
-                <a href="#" class="cabecalho-menu-item">Sobre</a>
-                <a href="#" class="cabecalho-menu-item">Orçamento</a>
-                <a href="#" class="cabecalho-menu-item">Ouça</a>
+                <a onclick="jumpTo('home-head')" class="cabecalho-menu-item">Home</a>
+                <a onclick="jumpTo('servicos-head')" class="cabecalho-menu-item">Serviços</a>
+                <a onclick="jumpTo('portifolio-head')" class="cabecalho-menu-item">Portifólio</a>
+                <a onclick="jumpTo('sobre-head')" class="cabecalho-menu-item">Sobre</a>
+                <a onclick="jumpTo('orcamento-head')" class="cabecalho-menu-item">Orçamento</a>
+                <a class="cabecalho-menu-item">Ouça</a>
             </nav>
             <nav class="cabecalho-menu-redes-sociais">
                 <a href="#" class="cabecalho-menu-item"><img src="assets/img/icones/tidal.svg" alt="ícone do tidal" class="icone-stream"></a>
@@ -46,22 +46,23 @@
 
     <main class="conteudo">
         <!-- HOME -->
-        <section class="conteudo-principal">
+        <section class="conteudo-principal" id="home-head">
             <div class="conteudo-principal-escrito">
                 <h1 class="conteudo-principal-titulo">MAIS DE 1M EM REPRODUÇÕES</h1>
                 <h2 class="conteudo-principal-subtitulo">
-                <!-- "Mixagem e masterização não se tratam apenas de girar botões, mas sim de compreender a música, e através da técnica, e criatividade, trazer mais emoção e vida a ela." -->
-                "Mixagem: a sutil arte de trazer vida à música, através de movimentos técnicos conscientes."
-            <p class="conteudo-principal-subtitulo-nome">Leandro Santos</p>
-            </h2>
-                <button class="btn btn-border">Saiba Mais</button>
+                    "Mixagem: a sutil arte de trazer vida à música, através de movimentos técnicos conscientes."
+                    <p class="conteudo-principal-subtitulo-nome">Leandro Santos</p>
+                </h2>
+                <button class="btn btn-border" onclick="jumpTo('orcamento-head')">Saiba Mais</button>
             </div>
             <img class="conteudo-principal-imagem" src="assets/img/logonome.png" alt="Imagem de Perfil do Leandro Santos">
         </section>
 
         <!-- SERVIÇOS -->
         <section class="conteudo-servicos">
-            <h2 class="conteudo-subtitulo">Serviços</h2>
+            <div class="conteudo-sobre-escrito">
+                <h2 class="conteudo-subtitulo" id="servicos-head">Serviços</h2>
+            </div>
             <div class="servicos-disponiveis">
                 <div class="conteudo-servico">
                     <div class="servico">
@@ -95,14 +96,16 @@
                     <!--/.EDIÇÃO-->
                 </div>
             </div>
-            <button class="btn btn-border">Saiba Mais</button>
+            <button class="btn btn-border" onclick="jumpTo('orcamento-head')">Saiba Mais</button>
 
         </section>
 
         <!-- PORTIFÓLIO -->
         <section class="conteudo-portifolio">
-            <h2 class="conteudo-subtitulo">Últimos trabalhos</h2>
-            <p class="conteudo-subhead-texto">Ouça meus trabalhos nas principais plataformas de streaming</p>
+            <div class="conteudo-sobre-escrito">
+                <h2 class="conteudo-subtitulo" id="portifolio-head">Últimos trabalhos</h2>
+                <p class="conteudo-subhead-texto">Ouça meus trabalhos nas principais plataformas de streaming</p>
+            </div>
             <div class="carrossel-trabalhos">
 
 
@@ -398,7 +401,7 @@
         <!-- SOBRE -->
         <section class="conteudo-sobre">
             <div class="conteudo-sobre-escrito">
-                <h2 class="conteudo-subtitulo">Sobre</h2>
+                <h2 class="conteudo-subtitulo" id="sobre-head">Sobre</h2>
                 <p class="conteudo-subhead-texto">Conheça mais sobre a vida do Leandro Santos</p>
             </div>
             <div class="sobre-conteudo">
@@ -411,7 +414,7 @@
                         Devido ao crescimento do seu trabalho, no ano de 2019, tornou-se endorser da <a href="dmark.com">D'Mark</a>, uma das maiores fabricantes de instrumentos de Luthieria dentro e fora do Brasil.
                         Ainda em 2019, despertou interesse pela engenharia de áudio, onde começou a se aprofundar no assunto realizando diversos curso
                         no Brasil e no exterior. No ano seguinte, ingressou no mercado trabalhando diretamente como engenheiro de áudio. Em 2021, tornou-se afiliado da maior loja de plugins e softwares de áudio do Brasil, <a href="plugins.com.br">Plugins Br</a>.
-                        Atualmente, Leandro trabalha como engenheiro de áudio e vem realizando trabalhos para artistas nacionais e internacionais, proporcionando uma experiência única a cada música, impondo sua personalidade e trazendo a tona todas as ideias e emoções propostas por cada produtor musical ou artista. 
+                        Atualmente, Leandro trabalha como engenheiro de áudio e vem realizando trabalhos para artistas nacionais e internacionais, proporcionando uma experiência única a cada música, impondo sua personalidade e trazendo a tona todas as ideias e emoções propostas por cada produtor musical ou artista.
 
 
                     </p>
@@ -425,11 +428,11 @@
         <!-- ORÇAMENTO -->
         <section class="conteudo-orcamento">
             <div class="conteudo-orcamento-escrito">
-                <h2 class="conteudo-subtitulo">Saiba Mais</h2>
+                <h2 class="conteudo-subtitulo" id="orcamento-head">Saiba Mais</h2>
                 <p class="conteudo-subhead-texto">Entre em contato para mais informações.</p>
             </div>
 
-            <form class="conteudo-orcamento-formulario" id="formularioinformacao"action="#" method="POST">
+            <form class="conteudo-orcamento-formulario" id="formularioinformacao" action="controller/submit.php" method="POST">
                 <div class="campo-orcamento">
                     <label for="firstname">Nome Completo</label>
                     <input type="text" name="name" id="name" placeholder="Nome Completo">
@@ -443,7 +446,7 @@
                     <label for="email">E-mail</label>
                     <input type="email" name="email" id="email" placeholder="contato@provedor.com.br" text" name="firstname" id="firstname" placeholder="Primeiro Nome">
                 </div>
-                
+
                 <div class="campo-orcamento">
                     <label for="descricao">Descreva sua Solicitação</label>
                     <textarea id="descricao" name="descricao" placeholder="Descreva sua solicitação até 1000 caracteres" maxlength="1000" form="formularioinformacao" resizable="false"></textarea>
@@ -463,6 +466,11 @@
         </div>
         <small class="conteudo-footer-dev">desenvolvido por <a href="mailto:lucas.lima.rk@gmail.com">astatonn</a></small>
     </footer>
+
+
+    <!-- JS -->
+    <script type="text/javascript" src="assets/js/script.js"></script>
+
 
 </body>
 

@@ -5,7 +5,6 @@
 
 * JAVASCRIPT
 -> LOADMORE
--> HEADTO
 -> MASK INFO
 
 *PHP

@@ -1,6 +1,7 @@
-function jumpto (par){
-    $('html, body').animate({
-        scrollTop: $(toString(par)).offset().top
-    }, 500);
+function jumpTo (par){
+    document.getElementById(par).scrollIntoView({
+        behavior: "smooth",
+        block: "center",
+    });
 }
 

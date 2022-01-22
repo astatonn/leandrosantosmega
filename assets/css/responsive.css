@@ -12,6 +12,10 @@
         font-size: 1.5em;
     }
 
+    .cabecalho-menu-item {
+        font-size: 12px;
+    }
+
     .servico-informacao {
         font-size: 1em;
     }
@@ -33,14 +37,116 @@
         display: flex;
         flex-direction: column;
     }
+
+    .conteudo-ultimo-trabalho {
+        height: 150px;
+    }
+
+    .portifolio-imagem {
+        height: 150px;
+    }
+
+    .musica-titulo {
+        font-size: 9px;
+    }
+
+    .spotify {
+        height: 19px;
+        top: 36px;
+    }
+
+    .tidal {
+        height: 19px;
+        top: 57px;
+    }
+
+    .deezer {
+        height: 19px;
+        top: 79px;
+    }
+
+    .youtube {
+        height: 19px;
+        top: 100px;
+    }
+
+    .apple {
+        height: 19px;
+        top: 122px;
+    }
+
+    .conteudo-ultimo-trabalho a {
+        width: 60px;
+    }
+
+    .musica-titulo {
+        width: 90px;
+    }
+    .icone-stream {
+        height: 12px;
+    }
+
+    .texto-stream {
+        font-size: 8px;
+    }
+
+    .conteudo-orcamento-formulario {
+        width: 50%;
+    }
+
+    .conteudo-subtitulo {
+        font-size: 38px;
+    }
+
+    .conteudo-subhead-texto {
+        font-size: 12px;
+    }
+
+    .servico-imagem {
+        height:43px;
+    }
+
+    .conteudo-principal {
+        background-size: cover;
+        background-position: 50% 100px;
+        background-attachment: scroll;
+    }
+
+    .conteudo-principal-titulo {
+        font-size: 38px;
+    }
+
+    .conteudo-principal-escrito {
+        margin-top: 10%;
+    }
+    .conteudo-principal-subtitulo {
+        font-size: 12px;
+    }
+
+
+    .conteudo-sobre-texto {
+        font-size: 12px;
+        margin: 0;
+    }
 }
 
-@media only screen and (max-width: 496px){
+@media only screen and (max-width: 425px){
     .servico-titulo{
         font-size: 1em;
     }
 
     .servico-informacao {
         font-size: 0.7em;
+    }
+
+    .conteudo-principal {
+        background-size: cover;
+    }
+
+}
+
+@media only screen and (max-width: 1366px){
+    .conteudo-subtitulo {
+        margin-top: 10%;
     }
 }
