@@ -1,7 +1,6 @@
-/* conteúdo principal deve ocupar a tela inteira */
-/* incluir links das redes sociais */
-/* fazer página admin para gerenciar os trabalhos que irão aparecer */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Unica+One&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -256,6 +255,7 @@ textarea {
     text-align: justify;
 
 }
+
 
 .conteudo-subtitulo{
     color: rgb(212, 196, 255);

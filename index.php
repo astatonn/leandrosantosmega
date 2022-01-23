@@ -38,8 +38,8 @@
                 <a class="cabecalho-menu-item">Ouça</a>
             </nav>
             <nav class="cabecalho-menu-redes-sociais">
-                <a href="#" class="cabecalho-menu-item"><img src="assets/img/icones/tidal.svg" alt="ícone do tidal" class="icone-stream"></a>
-                <a href="#" class="cabecalho-menu-item"><img src="assets/img/icones/tidal.svg" alt="ícone do tidal" class="icone-stream"></a>
+                <a href="#" class="cabecalho-menu-item"><img src="assets/img/icones/facebook.png" alt="ícone do tidal" class="icone-stream"></a>
+                <a href="#" class="cabecalho-menu-item"><img src="assets/img/icones/instagram.png" alt="ícone do tidal" class="icone-stream"></a>
             </nav>
         </div>
     </header>
@@ -393,7 +393,7 @@
                     </div>
                 </div>
 
-
+             
             </div>
 
         </section>
@@ -440,16 +440,16 @@
 
                 <div class="campo-orcamento">
                     <label for="telefone">Telefone</label>
-                    <input type="tel" name="telefone" id="telefone" placeholder="XX XXXXX-XXXX" text" name="firstname" id="firstname" placeholder="Primeiro Nome">
+                    <input type="tel" name="telefone" id="telefone" maxlength="15" minlength="14" placeholder="XX XXXXX-XXXX" text" name="firstname" id="firstname" placeholder="Primeiro Nome">
                 </div>
                 <div class="campo-orcamento">
                     <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email" placeholder="contato@provedor.com.br" text" name="firstname" id="firstname" placeholder="Primeiro Nome">
+                    <input type="email" name="email" id="email" placeholder="contato@provedor.com.br" name="firstname" id="firstname" placeholder="Primeiro Nome">
                 </div>
 
                 <div class="campo-orcamento">
                     <label for="descricao">Descreva sua Solicitação</label>
-                    <textarea id="descricao" name="descricao" placeholder="Descreva sua solicitação até 1000 caracteres" maxlength="1000" form="formularioinformacao" resizable="false"></textarea>
+                    <textarea id="descricao" name="descricao" placeholder="Descreva sua solicitação até 1000 caracteres" maxlength="1000" minlength="50" form="formularioinformacao" resizable="false"></textarea>
                 </div>
                 <div class="campo-orcamento-enviar">
                     <input type="submit" value="Enviar" class="btn btn-border">
@@ -469,7 +469,9 @@
 
 
     <!-- JS -->
+    
     <script type="text/javascript" src="assets/js/script.js"></script>
+
 
 
 </body>
