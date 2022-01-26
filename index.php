@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-<?php require 'vendor/autoload.php'; ?>
+<?php 
+require ('vendor/autoload.php'); 
+
+?>
 
 <head>
     <!-- METADADOS -->
