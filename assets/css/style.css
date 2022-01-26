@@ -538,6 +538,7 @@ ul {
 .conteudo-sobre-imagem  img{
     height: 400px;
     margin-top: -20%;
+    padding-top: 42px;
 }
 
 .sobre-conteudo {

@@ -33,6 +33,9 @@
         background-size: cover;
     }
 
+    #loadmore {
+        font-size: 14px;
+    }
     .cabecalho{
         display: flex;
         flex-direction: column;
