@@ -17,11 +17,11 @@ require ('vendor/autoload.php');
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://allfont.net/allfont.css?fonts=agency-fb" rel="stylesheet" type="text/css" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">   
 
     <!-- TÍTULO E FAVICON -->
     <title>Leandro Santos - Engenheiro de Áudio</title>
+    <link rel="shortcut icon" href="assets/img/logo.png">
 
 </head>
 
@@ -42,7 +42,7 @@ require ('vendor/autoload.php');
                 <a onclick="jumpTo('portifolio-head')" class="cabecalho-menu-item">Portifólio</a>
                 <a onclick="jumpTo('sobre-head')" class="cabecalho-menu-item">Sobre</a>
                 <a onclick="jumpTo('orcamento-head')" class="cabecalho-menu-item">Orçamento</a>
-                <a class="cabecalho-menu-item">Ouça</a>
+                <a class="cabecalho-menu-item" style="font-weight:500">Ouça</a>
             </nav>
             <nav class="cabecalho-menu-redes-sociais">
                 <a href="#" class="cabecalho-menu-item"><img src="assets/img/icones/facebook.png" alt="ícone do tidal"

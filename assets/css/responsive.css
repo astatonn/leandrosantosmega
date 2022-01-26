@@ -152,6 +152,20 @@
 
     .conteudo-principal {
         background-size: cover;
+        padding-bottom: 74px;
+    }
+
+    .conteudo-principal-titulo {
+        font-size: 22px;
+    }
+
+    .btn {
+        width: 120px;
+        font-size: 9px !important;
+    }
+
+    .conteudo-principal-escrito {
+        margin: 10% 10% auto 10% ;
     }
 
 }
