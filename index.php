@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
+<?php require 'vendor/autoload.php'; ?>
+
 <head>
     <!-- METADADOS -->
     <meta charset="UTF-8">
