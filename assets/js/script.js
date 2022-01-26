@@ -30,11 +30,27 @@ window.onload = function(){
 	}
 }
 
-$('input[type="tel"]').each(function(){
-    $(this).on('keyup',function(){
-        if ($(this).val() > Number($(this).attr("max"))) {
-  val=$(this).val().slice(0, $(this).attr("max").length);
-  $(this).val(val);
-}
+const loadmore = document.querySelector('#loadmore');
+    let currentItems = 5;
+    loadmore.addEventListener('click', (e) => {
+        const elementList = [...document.querySelectorAll('.carrossel-trabalhos .ultimos-trabalhos')];
+        for (let i = currentItems; i < currentItems + 4; i++) {
+            if (elementList[i]) {
+
+                elementList[i].style.opacity = '1';
+                elementList[i].style.display = 'block';
+                elementList[i].style.animation = 'fadeIn 1s';
+                elementList[i].style.webkitAnimation = 'fadeIn 1s'; 
+            }
+        }
+        currentItems += 5;
+
+        // Load more button will be hidden after list fully loaded
+        if (currentItems >= elementList.length) {
+
+            event.target.style.display = 'fadeOut 2s';
+            event.target.style.display = 'fadeOut 2s'; 
+            event.target.style.display = 'none';
+
+        }
     });
-});

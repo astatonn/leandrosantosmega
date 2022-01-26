@@ -38,14 +38,14 @@ body {
 }
 .titulo-cabecalho {
     font-family: 'Agency FB', sans-serif;
-    color: rgb(212, 196, 255);
+    color: #fff;
     font-size: x-large;
     margin-bottom: 0;
 }
 
 .subtitulo-cabecalho {
     font-family: 'Unica One', sans-serif;
-    color: rgb(212, 196, 255);
+    color: #fff;
     font-size: small;
     margin-bottom: 0;
 }
@@ -61,7 +61,7 @@ body {
 
 .cabecalho-menu-item {
     font-family: 'Roboto', sans-serif;
-    color: rgb(212, 196, 255);
+    color: #fff;
     font-weight: 200;
     font-size: 20px;
     text-decoration: none;
@@ -70,6 +70,7 @@ body {
 .cabecalho-menu-item:hover {
     text-decoration: none;
     cursor: pointer;
+    color: rgb(192, 210, 255);
 }
 
 
@@ -94,7 +95,7 @@ body {
 }
 
 .conteudo-principal {
-    background: linear-gradient(68.15deg, rgba(97, 6, 119,.7) 16.62%, rgba(22, 22, 29,.7) 85.61%), url('/leandrosantosmega/leandrosantosmega/assets/img/mega.JPG') no-repeat ;
+    background: linear-gradient(68.15deg, rgba(97, 6, 119,.7) 16.62%, rgba(22, 22, 29,.7) 85.61%), url('/assets/img/mega.JPG') no-repeat ;
     background-size: cover;
     display: flex;
     flex-direction: row;
@@ -149,7 +150,7 @@ body {
 
 .conteudo-principal-titulo {
     font-family: 'Agency FB', sans-serif;
-    color: rgb(212, 196, 255);
+    color: #fff;
     font-size: 64px;
     font-weight: 200px;
 }
@@ -163,7 +164,7 @@ body {
 .conteudo-principal-subtitulo {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    color: rgb(212, 196, 255);
+    color: rgb(192, 210, 255);
     font-size: 20px;
     font-style: italic;
     text-align: justify;
@@ -251,14 +252,14 @@ textarea {
 
 .servico-informacao {
     font-style: italic;
-    color: rgb(255, 210, 255);
+    color: #fff;
     text-align: justify;
 
 }
 
 
 .conteudo-subtitulo{
-    color: rgb(212, 196, 255);
+    color: #fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-size: 64px;
@@ -271,6 +272,24 @@ textarea {
 
 
 /* PORTIFÓLIO */
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+@-webkit-keyframes fadeOut {
+    from { opacity: 1; }
+      to { opacity: 0; }
+}
+@keyframes fadeOut {
+    from { opacity: 1; }
+      to { opacity: 0; }
+}
+
 .conteudo-portifolio{
     background: #28203e;
     display: flex;
@@ -280,9 +299,50 @@ textarea {
 }
 
 .ultimos-trabalhos {
-    display: flex;
+    display: none;
     flex-direction: row;
     flex-wrap: wrap;
+    transition: all 0.25s ease-out;
+
+}
+
+
+
+.carrossel-trabalhos .ultimos-trabalhos:nth-child(1) {
+    display: block;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+
+
+
+}
+.carrossel-trabalhos .ultimos-trabalhos:nth-child(2) {
+    display: block;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+
+}
+
+.carrossel-trabalhos .ultimos-trabalhos:nth-child(3) {
+    display: block;
+
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+    
+}
+
+.carrossel-trabalhos .ultimos-trabalhos:nth-child(4) {
+    display: block;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+   
+}
+
+.carrossel-trabalhos .ultimos-trabalhos:nth-child(5) {
+    display: block;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+   
 }
 
 .conteudo-ultimo-trabalho {
@@ -326,6 +386,24 @@ textarea {
     margin-right: 42px;
     margin-bottom: 72px;
     margin-top: 15px;
+}
+
+
+
+#loadmore {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: none;
+    padding: 40px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    color: #fff;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 1%, rgba(0,0,0,1) 100%);
+
 }
 
 .musica-item {
@@ -430,14 +508,21 @@ ul {
 }
 
 
+
+
 /* SOBRE */
 .conteudo-sobre {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background: #16161d;
+    background: linear-gradient(68.15deg, rgba(97, 6, 119,.7) 16.62%, rgba(22, 22, 29,.7) 85.61%), url('/assets/img/homestudio.JPG') no-repeat ;
+    background-size:cover;
     color: rgb(192, 210, 255);
+}
+
+.conteudo-sobre-escrito {
+    text-align: center;
 }
 
 .conteudo-sobre-texto {
@@ -452,8 +537,7 @@ ul {
 
 .conteudo-sobre-imagem  img{
     height: 400px;
-    border: 3px solid transparent;
-    border-radius: 50%;
+    margin-top: -20%;
 }
 
 .sobre-conteudo {

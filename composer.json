@@ -1,0 +1,14 @@
+{
+    "name": "astatonn/leandrosantosmega",
+    "description": "WebSite",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Lucas Lima",
+            "email": "lucas.lima.rk@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    }
+}
