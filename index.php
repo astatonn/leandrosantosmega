@@ -127,7 +127,7 @@ require ('vendor/autoload.php');
                 <!-- A Vida É Bem Melhor -->
                 <div class="ultimos-trabalhos">
                     <div class="conteudo-ultimo-trabalho">
-                        <img src="assets/img/portifolio/a_vida_e_bem_melhor.jpg" alt="ícone de mixagem de som"
+                        <img src="assets/img/portifolio/a_vida_e_bem_melhor.JPG" alt="ícone de mixagem de som"
                             class="portifolio-imagem">
                         <h4 class="musica-titulo">Arthur Pares - A Vida É Bem Melhor</h4>
                         <ul>
@@ -174,7 +174,7 @@ require ('vendor/autoload.php');
                 <!-- Meu Ladin -->
                 <div class="ultimos-trabalhos">
                     <div class="conteudo-ultimo-trabalho">
-                        <img src="assets/img/portifolio/meu_ladin.jpg" alt="ícone de mixagem de som"
+                        <img src="assets/img/portifolio/meu_ladin.JPG" alt="ícone de mixagem de som"
                             class="portifolio-imagem">
                         <h4 class="musica-titulo">Gustavo Bing - Meu Ladin</h4>
                         <ul>
@@ -356,7 +356,7 @@ require ('vendor/autoload.php');
                 <!-- Sempre Vai Ser -->
                 <div class="ultimos-trabalhos">
                     <div class="conteudo-ultimo-trabalho">
-                        <img src="assets/img/portifolio/sempre_vai_ser.jpg" alt="ícone de mixagem de som"
+                        <img src="assets/img/portifolio/sempre_vai_ser.JPG" alt="ícone de mixagem de som"
                             class="portifolio-imagem">
                         <h4 class="musica-titulo">Arthur Pares - Sempre Vai Ser</h4>
                         <ul>
