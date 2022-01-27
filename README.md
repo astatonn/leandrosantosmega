@@ -2,7 +2,8 @@
  Site do Mega
 
  ************** TODOLIST **************
-
+*INDEX
+-> AVISO DE PRIVACIDADE E COLETA DE DADOS
 
 *PHP
 -> CRIAR SERVIÇO DE EMAIL A PARTIR DO POST
