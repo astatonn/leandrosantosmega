@@ -42,7 +42,7 @@ require ('vendor/autoload.php');
                 <a onclick="jumpTo('portifolio-head')" class="cabecalho-menu-item">Portifólio</a>
                 <a onclick="jumpTo('sobre-head')" class="cabecalho-menu-item">Sobre</a>
                 <a onclick="jumpTo('orcamento-head')" class="cabecalho-menu-item">Orçamento</a>
-                <a class="cabecalho-menu-item" style="font-weight:500">Ouça</a>
+                <a href="https://open.spotify.com/playlist/0G3u9lYukiXjmxrLkYfmMH?si=If9KZX4bR4iak6TTTyHp7A" class="cabecalho-menu-item" style="font-weight:500">Ouça</a>
             </nav>
             <nav class="cabecalho-menu-redes-sociais">
                 <a href="#" class="cabecalho-menu-item"><img src="assets/img/icones/facebook.png" alt="ícone do tidal"

@@ -78,9 +78,9 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    padding: 10px;
+    justify-content: space-between;
     position: fixed;
+    padding: 10px 5% 10px 5%;
     width: 100%;
     z-index: 9999;
 }
@@ -360,9 +360,9 @@ textarea {
 .ultimos-trabalhos {
     display: none;
     flex-direction: row;
+    margin: 10px;
     flex-wrap: wrap;
     transition: all 0.25s ease-out;
-
 }
 
 
@@ -576,7 +576,6 @@ ul {
     text-align: center;
     background: linear-gradient(68.15deg, rgba(97, 6, 119,.7) 16.62%, rgba(22, 22, 29,.7) 85.61%), url('/assets/img/homestudio.jpg') no-repeat ;
     background-size:cover;
-    background-position: fixed;
     color: rgb(192, 210, 255);
 }
 
