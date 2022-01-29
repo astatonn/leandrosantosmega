@@ -472,13 +472,13 @@ require ('vendor/autoload.php');
                         musical no instrumento que o fascina, o contrabaixo. Em 2017, iniciou seus estudos e primeiros
                         trabalhos voltados à produção musical.
                         Devido ao crescimento do seu trabalho, no ano de 2019, tornou-se endorser da <a
-                            href="dmark.com">D'Mark</a>, uma das maiores fabricantes de instrumentos de Luthieria dentro
+                            href="https://www.dmarkguitars.com/" target="_blank">D'Mark</a>, uma das maiores fabricantes de instrumentos de Luthieria dentro
                         e fora do Brasil.
                         Ainda em 2019, despertou interesse pela engenharia de áudio, onde começou a se aprofundar no
                         assunto realizando diversos curso
                         no Brasil e no exterior. No ano seguinte, ingressou no mercado trabalhando diretamente como
                         engenheiro de áudio. Em 2021, tornou-se afiliado da maior loja de plugins e softwares de áudio
-                        do Brasil, <a href="plugins.com.br">Plugins Br</a>.
+                        do Brasil, <a href="https://plugins.com.br/" target="_blank">Plugins Br</a>.
                         Atualmente, Leandro trabalha como engenheiro de áudio e vem realizando trabalhos para artistas
                         nacionais e internacionais, proporcionando uma experiência única a cada música, impondo sua
                         personalidade e trazendo a tona todas as ideias e emoções propostas por cada produtor musical ou
@@ -533,7 +533,7 @@ require ('vendor/autoload.php');
     </main>
     <footer class="conteudo-footer">
         <div class="conteudo-footer-copyright">
-            <p>Copyright Leandro Santos 2022 &copy;. Todos os direitos Reservados</p>
+            <p>Copyright Leandro Santos <?php echo date ('Y'); ?>&copy;. Todos os direitos Reservados</p>
             <p>contato@leandrosmega.com</p>
         </div>
         <small class="conteudo-footer-dev">desenvolvido por <a
