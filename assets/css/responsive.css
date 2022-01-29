@@ -1,188 +1,289 @@
 /* SMALL DEVICES */
-@media only screen and (max-width: 767px) {
+
+@media only screen and (max-width: 768px) {
     .cabecalho-menu-completo {
         display: flex;
     }
-
     .conteudo-principal-imagem {
         display: none;
     }
-
     .servico-titulo {
         font-size: 1.5em;
     }
-
     .cabecalho-menu-item {
         font-size: 12px;
     }
-
     .servico-informacao {
         font-size: 1em;
     }
-
     .conteudo {
         width: 100%;
     }
-
     .conteudo-sobre-imagem {
         display: none;
     }
-
     .servicos-disponiveis {
         display: flex;
         flex-direction: column;
         width: 80%;
         text-align: center;
     }
-
     .conteudo-servico {
         width: 100%;
     }
-
     .conteudo-sobre {
-        background: linear-gradient(68.15deg, rgba(97, 6, 119,.7) 16.62%, rgba(22, 22, 29,.7) 85.61%), url('/assets/img/homestudio.jpg') no-repeat ;
+        background: linear-gradient(68.15deg, rgba(97, 6, 119, .7) 16.62%, rgba(22, 22, 29, .7) 85.61%), url('/assets/img/homestudio.jpg') no-repeat;
         background-size: cover;
     }
-
     #loadmore {
         font-size: 14px;
     }
-    .cabecalho{
+    .cabecalho {
         display: flex;
         flex-direction: column;
+        width: 100%;
+        padding: 10px 5% 10px 5%;
     }
-
+    .cabecalho-menu-completo {
+        width: 100%;
+    }
     .conteudo-ultimo-trabalho {
         height: 150px;
     }
-
+    .cabecalho-menu {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .conteudo-principal-escrito {
+        width: 100%;
+        margin: 0;
+        padding: 30px 5% 10px 5%;
+    }
+    .conteudo-servicos {
+        width: 100%;
+        padding: 0 5% 42px 5%;
+    }
+    .servicos-disponiveis {
+        width: 100%;
+    }
     .portifolio-imagem {
         height: 150px;
     }
-
     .musica-titulo {
         font-size: 9px;
     }
-
     .spotify {
         height: 19px;
         top: 36px;
     }
-
     .tidal {
         height: 19px;
         top: 57px;
     }
-
     .deezer {
         height: 19px;
         top: 79px;
     }
-
     .youtube {
         height: 19px;
         top: 100px;
     }
-
     .apple {
         height: 19px;
         top: 122px;
     }
-
     .conteudo-ultimo-trabalho a {
         width: 60px;
     }
-
     .musica-titulo {
         width: 90px;
     }
     .icone-stream {
         height: 12px;
     }
-
     .texto-stream {
         font-size: 8px;
     }
-
     .conteudo-orcamento-formulario {
-        width: 50%;
+        width: 70%;
     }
-
     .conteudo-subtitulo {
         font-size: 38px;
+        margin: 10% 0;
     }
-
     .conteudo-subhead-texto {
         font-size: 12px;
     }
-
     .servico-imagem {
-        height:43px;
+        height: 43px;
     }
-
     .conteudo-principal {
         background-size: cover;
         background-position: 50% 100px;
         background-attachment: scroll;
     }
-
     .conteudo-principal-titulo {
         font-size: 38px;
     }
-
     .conteudo-principal-escrito {
         margin-top: 10%;
     }
     .conteudo-principal-subtitulo {
         font-size: 12px;
+        width: 50%;
     }
-
-
     .conteudo-sobre-texto {
         font-size: 12px;
-        margin: 0;
+        margin: 0 !important;
+        width: 100%;
     }
-
+    .sobre-conteudo {
+        padding: 10px 5% 32px 5%;
+    }
+    .carrossel-trabalhos {
+        width: 100%;
+        align-self: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0 0 72px 0;
+        justify-content: center;
+    }
+    .conteudo-portifolio {
+        width: 100%;
+    }
     .cabecalho-menu {
         gap: 19px;
     }
-
     .cabecalho-menu-redes-sociais a {
         margin-left: 6px;
     }
 }
 
-@media only screen and (max-width: 425px){
-    .servico-titulo{
+@media only screen and (max-width: 425px) {
+    .servico-titulo {
         font-size: 1em;
     }
-
     .servico-informacao {
         font-size: 1em;
     }
-
     .conteudo-principal {
         background-size: cover;
         padding-bottom: 74px;
     }
-
     .conteudo-principal-titulo {
         font-size: 22px;
     }
-
     .btn {
         width: 120px;
         font-size: 9px !important;
     }
-
-    .conteudo-principal-escrito {
-        margin: 10% 10% auto 10% ;
+    .conteudo-orcamento-formulario {
+        width: 70%;
     }
-
+    .cabecalho {
+        width: 100%;
+        padding: 10px 5% 10px 5%;
+    }
+    .cabecalho-menu-completo {
+        width: 100%;
+    }
+    .cabecalho-menu {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .conteudo-principal-escrito {
+        width: 100%;
+        margin: 0;
+        padding: 30px 5% 10px 5%;
+    }
+    .conteudo-servicos {
+        width: 100%;
+        padding: 0 5% 42px 5%;
+    }
+    .servicos-disponiveis {
+        width: 100%;
+    }
 }
 
-@media only screen and (max-width: 1366px){
+@media only screen and (max-width: 1366px) {
     .conteudo-subtitulo {
-        margin-top: 10%;
+        margin: 10% 0;
+    }
+    .conteudo-sobre-texto {
+        margin-right: 5%;
+    }
+    .carrossel-trabalhos {
+        justify-content: center;
+        padding: 30px 5% 10px 5%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .cabecalho-menu {
+        gap: 10px;
+    }
+    .conteudo-orcamento-formulario {
+        width: 80%;
+    }
+    .conteudo-subhead-texto {
+        font-size: 10px;
+    }
+    .cabecalho {
+        width: 100%;
+        padding: 10px 5% 10px 5%;
+    }
+    .conteudo-principal-escrito {
+        width: 100%;
+        margin: 0;
+        padding: 30px 5% 10px 5%;
+    }
+    .conteudo-servicos {
+        width: 100%;
+        padding: 0 5% 42 5%;
+    }
+    .servicos-disponiveis {
+        width: 100%;
+    }
+    .conteudo-ultimo-trabalho {
+        height: 100px;
+    }
+    .portifolio-imagem {
+        height: 100px;
+    }
+    .musica-titulo {
+        font-size: 5px;
+    }
+    .spotify {
+        height: 11px;
+        top: 26px;
+    }
+    .tidal {
+        height: 11px;
+        top: 39px;
+    }
+    .deezer {
+        height: 11px;
+        top: 52px;
+    }
+    .youtube {
+        height: 11px;
+        top: 65px;
+    }
+    .apple {
+        height: 11px;
+        top: 78px;
+    }
+    .conteudo-ultimo-trabalho a {
+        width: 36px;
+    }
+    .musica-titulo {
+        width: 54px;
+    }
+    .icone-stream {
+        height: 7px;
+    }
+    .texto-stream {
+        font-size: 5px;
     }
 }

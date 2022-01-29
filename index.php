@@ -37,17 +37,17 @@ require ('vendor/autoload.php');
         </div>
         <div class="cabecalho-menu-completo">
             <nav class="cabecalho-menu">
-                <a onclick="jumpTo('home-head')" class="cabecalho-menu-item">Home</a>
+                <a onclick="jumpTo('home-head')"  class="cabecalho-menu-item">Home</a>
                 <a onclick="jumpTo('servicos-head')" class="cabecalho-menu-item">Serviços</a>
                 <a onclick="jumpTo('portifolio-head')" class="cabecalho-menu-item">Portifólio</a>
                 <a onclick="jumpTo('sobre-head')" class="cabecalho-menu-item">Sobre</a>
                 <a onclick="jumpTo('orcamento-head')" class="cabecalho-menu-item">Orçamento</a>
-                <a href="https://open.spotify.com/playlist/0G3u9lYukiXjmxrLkYfmMH?si=If9KZX4bR4iak6TTTyHp7A" class="cabecalho-menu-item" style="font-weight:500">Ouça</a>
+                <a href="https://open.spotify.com/playlist/0G3u9lYukiXjmxrLkYfmMH?si=If9KZX4bR4iak6TTTyHp7A" target="_blank" class="cabecalho-menu-item" style="font-weight:500">Ouça</a>
             </nav>
             <nav class="cabecalho-menu-redes-sociais">
-                <a href="#" class="cabecalho-menu-item"><img src="assets/img/icones/facebook.png" alt="ícone do tidal"
+                <a href="https://www.facebook.com/leandrosantosbaixista" class="cabecalho-menu-item" target="_blank"><img src="assets/img/icones/facebook.png" alt="ícone do tidal"
                         class="icone-stream"></a>
-                <a href="#" class="cabecalho-menu-item"><img src="assets/img/icones/instagram.png" alt="ícone do tidal"
+                <a href="https://www.instagram.com/leandrosantosmegaa/" class="cabecalho-menu-item" target="_blank"><img src="assets/img/icones/instagram.png" alt="ícone do tidal"
                         class="icone-stream"></a>
             </nav>
         </div>
@@ -121,6 +121,7 @@ require ('vendor/autoload.php');
                 <h2 class="conteudo-subtitulo" id="portifolio-head">Últimos trabalhos</h2>
                 <p class="conteudo-subhead-texto">Ouça meus trabalhos nas principais plataformas de streaming</p>
             </div>
+            <div class="portifolio-full-size">
             <div class="carrossel-trabalhos">
 
 
@@ -132,7 +133,7 @@ require ('vendor/autoload.php');
                         <h4 class="musica-titulo">Arthur Pares - A Vida É Bem Melhor</h4>
                         <ul>
                             <li>
-                                <a href="https://open.spotify.com/track/3MMJpPPTs2bfQlu6UE2TwJ?si=a309eeb373fb4dbf"
+                                <a href="https://open.spotify.com/track/3MMJpPPTs2bfQlu6UE2TwJ?si=a309eeb373fb4dbf" target="_blank"
                                     class="musica-item spotify">
                                     <span class="texto-stream">Spotify</span>
                                     <img src="assets/img/icones/spotify.svg" alt="ícone do youtube"
@@ -140,26 +141,26 @@ require ('vendor/autoload.php');
                                 </a>
                             </li>
                             <li>
-                                <a href="https://deezer.page.link/aLH1hrYpkkY2Gfd38" class="musica-item deezer">
+                                <a href="https://deezer.page.link/aLH1hrYpkkY2Gfd38" target="_blank" class="musica-item deezer">
                                     <span class="texto-stream">Deezer</span>
                                     <img src="assets/img/icones/deezer.svg" alt="ícone do youtube" class="icone-stream">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://tidal.com/browse/track/201822353" class="musica-item tidal">
+                                <a href="https://tidal.com/browse/track/201822353" target="_blank" class="musica-item tidal">
                                     <span class="texto-stream">Tidal</span>
                                     <img src="assets/img/icones/tidal.svg" alt="ícone do youtube" class="icone-stream">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://music.apple.com/br/album/a-vida-%C3%A9-bem-melhor/1591142818?i=1591142819"
+                                <a href="https://music.apple.com/br/album/a-vida-%C3%A9-bem-melhor/1591142818?i=1591142819" target="_blank"
                                     class="musica-item apple">
                                     <span class="texto-stream">iTunes</span>
                                     <img src="assets/img/icones/itunes.svg" alt="ícone do youtube" class="icone-stream">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.youtube.com/watch?v=dw0DSUW0hXU" class="musica-item youtube">
+                                <a href="https://www.youtube.com/watch?v=dw0DSUW0hXU" target="_blank" class="musica-item youtube">
                                     <span class="texto-stream">YouTube</span>
                                     <img src="assets/img/icones/youtube.svg" alt="ícone do youtube"
                                         class="icone-stream">
@@ -179,7 +180,7 @@ require ('vendor/autoload.php');
                         <h4 class="musica-titulo">Gustavo Bing - Meu Ladin</h4>
                         <ul>
                             <li>
-                                <a href="https://open.spotify.com/track/6GfWC4rxJd5YZ15tqXg2E0?si=a7876b1dc2464dc4"
+                                <a href="https://open.spotify.com/track/6GfWC4rxJd5YZ15tqXg2E0?si=a7876b1dc2464dc4" target="_blank"
                                     class="musica-item spotify">
                                     <span class="texto-stream">Spotify</span>
                                     <img src="assets/img/icones/spotify.svg" alt="ícone do youtube"
@@ -187,26 +188,26 @@ require ('vendor/autoload.php');
                                 </a>
                             </li>
                             <li>
-                                <a href="https://deezer.page.link/USTgn9jRbTBSzH2z5" class="musica-item deezer">
+                                <a href="https://deezer.page.link/USTgn9jRbTBSzH2z5" target="_blank" class="musica-item deezer">
                                     <span class="texto-stream">Deezer</span>
                                     <img src="assets/img/icones/deezer.svg" alt="ícone do youtube" class="icone-stream">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://tidal.com/browse/track/196150454" class="musica-item tidal">
+                                <a href="https://tidal.com/browse/track/196150454" target="_blank" class="musica-item tidal">
                                     <span class="texto-stream">Tidal</span>
                                     <img src="assets/img/icones/tidal.svg" alt="ícone do youtube" class="icone-stream">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://music.apple.com/br/album/meu-ladin/1584051195?i=1584051197"
+                                <a href="https://music.apple.com/br/album/meu-ladin/1584051195?i=1584051197" target="_blank"
                                     class="musica-item apple">
                                     <span class="texto-stream">iTunes</span>
                                     <img src="assets/img/icones/itunes.svg" alt="ícone do youtube" class="icone-stream">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.youtube.com/watch?v=dy4i1SP1vQE" class="musica-item youtube">
+                                <a href="https://www.youtube.com/watch?v=dy4i1SP1vQE" target="_blank" class="musica-item youtube">
                                     <span class="texto-stream">YouTube</span>
                                     <img src="assets/img/icones/youtube.svg" alt="ícone do youtube"
                                         class="icone-stream">
@@ -225,7 +226,7 @@ require ('vendor/autoload.php');
                         <h4 class="musica-titulo">João Mar - Seu Sorrir</h4>
                         <ul>
                             <li>
-                                <a href="https://open.spotify.com/track/1WLlKl0nO4otZShd2qUBQV?si=0939d77ccaf54923"
+                                <a href="https://open.spotify.com/track/1WLlKl0nO4otZShd2qUBQV?si=0939d77ccaf54923" target="_blank"
                                     class="musica-item spotify">
                                     <span class="texto-stream">Spotify</span>
                                     <img src="assets/img/icones/spotify.svg" alt="ícone do youtube"
@@ -233,26 +234,26 @@ require ('vendor/autoload.php');
                                 </a>
                             </li>
                             <li>
-                                <a href="https://deezer.page.link/wEpYtNYcdzmVVE336" class="musica-item deezer">
+                                <a href="https://deezer.page.link/wEpYtNYcdzmVVE336" target="_blank" class="musica-item deezer">
                                     <span class="texto-stream">Deezer</span>
                                     <img src="assets/img/icones/deezer.svg" alt="ícone do youtube" class="icone-stream">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://tidal.com/browse/track/199678358" class="musica-item tidal">
+                                <a href="https://tidal.com/browse/track/199678358" target="_blank" class="musica-item tidal">
                                     <span class="texto-stream">Tidal</span>
                                     <img src="assets/img/icones/tidal.svg" alt="ícone do youtube" class="icone-stream">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://music.apple.com/br/album/seu-sorrir/1598022646?i=1598022650"
+                                <a href="https://music.apple.com/br/album/seu-sorrir/1598022646?i=1598022650" target="_blank"
                                     class="musica-item apple">
                                     <span class="texto-stream">iTunes</span>
                                     <img src="assets/img/icones/itunes.svg" alt="ícone do youtube" class="icone-stream">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.youtube.com/watch?v=wYbEfvL9Tp4" class="musica-item youtube">
+                                <a href="https://www.youtube.com/watch?v=wYbEfvL9Tp4" target="_blank" class="musica-item youtube">
                                     <span class="texto-stream">YouTube</span>
                                     <img src="assets/img/icones/youtube.svg" alt="ícone do youtube"
                                         class="icone-stream">
@@ -270,7 +271,7 @@ require ('vendor/autoload.php');
                         <h4 class="musica-titulo">Arthur Pares ft. Arthur Sthaphanato - Bateu Saudade</h4>
                         <ul>
                             <li>
-                                <a href="https://open.spotify.com/track/5y6FqnIRObGakcu0tAdwLY?si=bc1c40e59dc04c9a"
+                                <a href="https://open.spotify.com/track/5y6FqnIRObGakcu0tAdwLY?si=bc1c40e59dc04c9a" target="_blank"
                                     class="musica-item spotify">
                                     <span class="texto-stream">Spotify</span>
                                     <img src="assets/img/icones/spotify.svg" alt="ícone do youtube"
@@ -278,26 +279,26 @@ require ('vendor/autoload.php');
                                 </a>
                             </li>
                             <li>
-                                <a href="https://deezer.page.link/6KD9pjdCWY3LFPjc8" class="musica-item deezer">
+                                <a href="https://deezer.page.link/6KD9pjdCWY3LFPjc8" target="_blank" class="musica-item deezer">
                                     <span class="texto-stream">Deezer</span>
                                     <img src="assets/img/icones/deezer.svg" alt="ícone do youtube" class="icone-stream">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://tidal.com/browse/track/201822355" class="musica-item tidal">
+                                <a href="https://tidal.com/browse/track/201822355" target="_blank" class="musica-item tidal">
                                     <span class="texto-stream">Tidal</span>
                                     <img src="assets/img/icones/tidal.svg" alt="ícone do youtube" class="icone-stream">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://music.apple.com/br/album/bateu-saudade/1591142818?i=1591142821"
+                                <a href="https://music.apple.com/br/album/bateu-saudade/1591142818?i=1591142821" target="_blank"
                                     class="musica-item apple">
                                     <span class="texto-stream">iTunes</span>
                                     <img src="assets/img/icones/itunes.svg" alt="ícone do youtube" class="icone-stream">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.youtube.com/watch?v=nUMaq6XwBa8" class="musica-item youtube">
+                                <a href="https://www.youtube.com/watch?v=nUMaq6XwBa8" target="_blank" class="musica-item youtube">
                                     <span class="texto-stream">YouTube</span>
                                     <img src="assets/img/icones/youtube.svg" alt="ícone do youtube"
                                         class="icone-stream">
@@ -316,7 +317,7 @@ require ('vendor/autoload.php');
                         <h4 class="musica-titulo">João Mar - Num Love</h4>
                         <ul>
                             <li>
-                                <a href="https://open.spotify.com/track/0pK8qKmlnSy5tbrGdj3iwY?si=fae06e61154143a4"
+                                <a href="https://open.spotify.com/track/0pK8qKmlnSy5tbrGdj3iwY?si=fae06e61154143a4" target="_blank"
                                     class="musica-item spotify">
                                     <span class="texto-stream">Spotify</span>
                                     <img src="assets/img/icones/spotify.svg" alt="ícone do youtube"
@@ -324,26 +325,26 @@ require ('vendor/autoload.php');
                                 </a>
                             </li>
                             <li>
-                                <a href="https://deezer.page.link/WkugzbT7yzWMP7MX8" class="musica-item deezer">
+                                <a href="https://deezer.page.link/WkugzbT7yzWMP7MX8" target="_blank" class="musica-item deezer">
                                     <span class="texto-stream">Deezer</span>
                                     <img src="assets/img/icones/deezer.svg" alt="ícone do youtube" class="icone-stream">
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="musica-item tidal">
+                                <a class="musica-item tidal disable-stream">
                                     <span class="texto-stream">Tidal</span>
                                     <img src="assets/img/icones/tidal.svg" alt="ícone do youtube" class="icone-stream">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://music.apple.com/br/album/num-love/1598022646?i=1598022656"
+                                <a href="https://music.apple.com/br/album/num-love/1598022646?i=1598022656" target="_blank"
                                     class="musica-item apple">
                                     <span class="texto-stream">iTunes</span>
                                     <img src="assets/img/icones/itunes.svg" alt="ícone do youtube" class="icone-stream">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.youtube.com/watch?v=YiU5rPZWmFQ" class="musica-item youtube">
+                                <a href="https://www.youtube.com/watch?v=YiU5rPZWmFQ" target="_blank" class="musica-item youtube">
                                     <span class="texto-stream">YouTube</span>
                                     <img src="assets/img/icones/youtube.svg" alt="ícone do youtube"
                                         class="icone-stream">
@@ -361,7 +362,7 @@ require ('vendor/autoload.php');
                         <h4 class="musica-titulo">Arthur Pares - Sempre Vai Ser</h4>
                         <ul>
                             <li>
-                                <a href="https://open.spotify.com/track/6ua8nggqRf47NM52L9TxXB?si=f61b0bb3f8804130"
+                                <a href="https://open.spotify.com/track/6ua8nggqRf47NM52L9TxXB?si=f61b0bb3f8804130" target="_blank"
                                     class="musica-item spotify">
                                     <span class="texto-stream">Spotify</span>
                                     <img src="assets/img/icones/spotify.svg" alt="ícone do youtube"
@@ -369,26 +370,26 @@ require ('vendor/autoload.php');
                                 </a>
                             </li>
                             <li>
-                                <a href="https://deezer.page.link/KbxtH2P9bXqFMAmX8" class="musica-item deezer">
+                                <a href="https://deezer.page.link/KbxtH2P9bXqFMAmX8" target="_blank" class="musica-item deezer">
                                     <span class="texto-stream">Deezer</span>
                                     <img src="assets/img/icones/deezer.svg" alt="ícone do youtube" class="icone-stream">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://tidal.com/browse/track/198342129" class="musica-item tidal">
+                                <a href="https://tidal.com/browse/track/198342129" target="_blank" class="musica-item tidal">
                                     <span class="texto-stream">Tidal</span>
                                     <img src="assets/img/icones/tidal.svg" alt="ícone do youtube" class="icone-stream">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://music.apple.com/br/album/sempre-vai-ser/1591142818?i=1591142822"
+                                <a href="https://music.apple.com/br/album/sempre-vai-ser/1591142818?i=1591142822" target="_blank"
                                     class="musica-item apple">
                                     <span class="texto-stream">iTunes</span>
                                     <img src="assets/img/icones/itunes.svg" alt="ícone do youtube" class="icone-stream">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.youtube.com/watch?v=j1oCXTJ4LAc" class="musica-item youtube">
+                                <a href="https://www.youtube.com/watch?v=j1oCXTJ4LAc" target="_blank" class="musica-item youtube">
                                     <span class="texto-stream">YouTube</span>
                                     <img src="assets/img/icones/youtube.svg" alt="ícone do youtube"
                                         class="icone-stream">
@@ -406,7 +407,7 @@ require ('vendor/autoload.php');
                         <h4 class="musica-titulo">João Mar - Meu Dengo</h4>
                         <ul>
                             <li>
-                                <a href="https://open.spotify.com/track/5FCZ14vCOikzChFdELioO2?si=e389775394bf4cf2"
+                                <a href="https://open.spotify.com/track/5FCZ14vCOikzChFdELioO2?si=e389775394bf4cf2" target="_blank"
                                     class="musica-item spotify">
                                     <span class="texto-stream">Spotify</span>
                                     <img src="assets/img/icones/spotify.svg" alt="ícone do youtube"
@@ -414,26 +415,26 @@ require ('vendor/autoload.php');
                                 </a>
                             </li>
                             <li>
-                                <a href="https://deezer.page.link/6pfhyZLqvt6drjGq9" class="musica-item deezer">
+                                <a href="https://deezer.page.link/6pfhyZLqvt6drjGq9" target="_blank" class="musica-item deezer">
                                     <span class="texto-stream">Deezer</span>
                                     <img src="assets/img/icones/deezer.svg" alt="ícone do youtube" class="icone-stream">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://tidal.com/browse/track/205384315" class="musica-item tidal">
+                                <a href="https://tidal.com/browse/track/205384315" target="_blank" class="musica-item tidal">
                                     <span class="texto-stream">Tidal</span>
                                     <img src="assets/img/icones/tidal.svg" alt="ícone do youtube" class="icone-stream">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://music.apple.com/br/album/meu-dengo/1598022646?i=1598022649"
+                                <a href="https://music.apple.com/br/album/meu-dengo/1598022646?i=1598022649" target="_blank"
                                     class="musica-item apple">
                                     <span class="texto-stream">iTunes</span>
                                     <img src="assets/img/icones/itunes.svg" alt="ícone do youtube" class="icone-stream">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.youtube.com/watch?v=s0Jt7K9Dcgo" class="musica-item youtube">
+                                <a href="https://www.youtube.com/watch?v=s0Jt7K9Dcgo" target="_blank" class="musica-item youtube">
                                     <span class="texto-stream">YouTube</span>
                                     <img src="assets/img/icones/youtube.svg" alt="ícone do youtube"
                                         class="icone-stream">
@@ -443,6 +444,8 @@ require ('vendor/autoload.php');
                     </div>
                 </div>
 
+                
+                </div>
 
             </div>
 
@@ -501,18 +504,18 @@ require ('vendor/autoload.php');
                 method="POST">
                 <div class="campo-orcamento">
                     <label for="firstname">Nome Completo</label>
-                    <input type="text" name="name" id="name" placeholder="Nome Completo">
+                    <input type="text" name="name" id="name">
                 </div>
 
                 <div class="campo-orcamento">
                     <label for="telefone">Telefone</label>
                     <input type="tel" name="telefone" id="telefone" maxlength="15" minlength="14"
-                        placeholder="XX XXXXX-XXXX" text" name="firstname" id="firstname" placeholder="Primeiro Nome">
+                       text" name="telefone" id="telefone">
                 </div>
                 <div class="campo-orcamento">
                     <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email" placeholder="contato@provedor.com.br" name="firstname"
-                        id="firstname" placeholder="Primeiro Nome">
+                    <input type="email" name="email" id="email" name="email"
+                        id="email">
                 </div>
 
                 <div class="campo-orcamento">
@@ -535,6 +538,10 @@ require ('vendor/autoload.php');
         </div>
         <small class="conteudo-footer-dev">desenvolvido por <a
                 href="mailto:lucas.lima.rk@gmail.com">astatonn</a></small>
+
+                <small class="conteudo-footer-dev"><a
+                href="privacidade.html" target="_blank">Privacidade </a>|<a
+                href="termos_de_uso.html" target="_blank"> Termos de Uso</a></small>
     </footer>
 
 
