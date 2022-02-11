@@ -119,6 +119,48 @@ require('vendor/autoload.php');
             <div class="portifolio-full-size">
                 <div class="carrossel-trabalhos">
 
+                    <!-- Undefined -->
+                    <div class="ultimos-trabalhos">
+                        <div class="conteudo-ultimo-trabalho">
+                            <img src="assets/img/portifolio/undefined.jpg" alt="ícone de mixagem de som" class="portifolio-imagem">
+                            <h4 class="musica-titulo">Alexa Rand - Undefined (feat. Alfie)</h4>
+                            <ul>
+                                <li>
+                                    <a href="https://open.spotify.com/track/66Vu51ImcjUFb3FMBvleLY?si=05d9277eb29040f4" target="_blank" class="musica-item spotify">
+                                        <span class="texto-stream">Spotify</span>
+                                        <img src="assets/img/icones/spotify.svg" alt="ícone do youtube" class="icone-stream">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://deezer.page.link/RdzzNV46hvqqyYiD7" target="_blank" class="musica-item deezer">
+                                        <span class="texto-stream">Deezer</span>
+                                        <img src="assets/img/icones/deezer.svg" alt="ícone do youtube" class="icone-stream">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://tidal.com/browse/track/211742229" target="_blank" class="musica-item tidal">
+                                        <span class="texto-stream">Tidal</span>
+                                        <img src="assets/img/icones/tidal.svg" alt="ícone do youtube" class="icone-stream">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://music.apple.com/br/album/undefined-feat-alfie-single/1604044465?l=en" target="_blank" class="musica-item apple">
+                                        <span class="texto-stream">iTunes</span>
+                                        <img src="assets/img/icones/itunes.svg" alt="ícone do youtube" class="icone-stream">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/watch?v=1ABZwURC-0E" target="_blank" class="musica-item youtube">
+                                        <span class="texto-stream">YouTube</span>
+                                        <img src="assets/img/icones/youtube.svg" alt="ícone do youtube" class="icone-stream">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+
 
                     <!-- A Vida É Bem Melhor -->
                     <div class="ultimos-trabalhos">
