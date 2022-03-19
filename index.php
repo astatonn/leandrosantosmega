@@ -117,7 +117,50 @@ require('vendor/autoload.php');
                 <p class="conteudo-subhead-texto">Ouça meus trabalhos nas principais plataformas de streaming</p>
             </div>
             <div class="portifolio-full-size">
-                <div class="carrossel-trabalhos">
+            <div class="carrossel-trabalhos">
+                <!-- RODA GIGANTE -->
+                <div class="ultimos-trabalhos">
+                        <div class="conteudo-ultimo-trabalho">
+                            <img src="assets/img/portifolio/roda_gigante.jpg" alt="ícone de mixagem de som" class="portifolio-imagem">
+                            <h4 class="musica-titulo">Sally in The Moon - Roda Gigante</h4>
+                            <ul>
+                                <li>
+                                    <a href="https://open.spotify.com/track/5p3WW9t76HHo1X4wuEfzdf?si=ac680b1e138447a3" target="_blank" class="musica-item spotify">
+                                        <span class="texto-stream">Spotify</span>
+                                        <img src="assets/img/icones/spotify.svg" alt="ícone do youtube" class="icone-stream">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://deezer.page.link/x33j8mCmd45fT7DGA" target="_blank" class="musica-item deezer">
+                                        <span class="texto-stream">Deezer</span>
+                                        <img src="assets/img/icones/deezer.svg" alt="ícone do youtube" class="icone-stream">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://tidal.com/browse/track/218467795" target="_blank" class="musica-item tidal">
+                                        <span class="texto-stream">Tidal</span>
+                                        <img src="assets/img/icones/tidal.svg" alt="ícone do youtube" class="icone-stream">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://music.apple.com/br/album/roda-gigante/1611922367?i=1611922368" target="_blank" class="musica-item apple">
+                                        <span class="texto-stream">iTunes</span>
+                                        <img src="assets/img/icones/itunes.svg" alt="ícone do youtube" class="icone-stream">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/watch?v=ylyLrv6uU7A" target="_blank" class="musica-item youtube">
+                                        <span class="texto-stream">YouTube</span>
+                                        <img src="assets/img/icones/youtube.svg" alt="ícone do youtube" class="icone-stream">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+
+
 
                     <!-- Undefined -->
                     <div class="ultimos-trabalhos">
@@ -160,7 +203,6 @@ require('vendor/autoload.php');
 
 
                     </div>
-
 
                     <!-- A Vida É Bem Melhor -->
                     <div class="ultimos-trabalhos">
