@@ -537,7 +537,7 @@ require('vendor/autoload.php');
                 <p class="conteudo-subhead-texto">Entre em contato para mais informações.</p>
             </div>
 
-            <form class="conteudo-orcamento-formulario" id="formularioinformacao" action="controller/submit.php" method="POST">
+            <form class="conteudo-orcamento-formulario" id="formularioinformacao" action="#" method="POST">
                 <div class="campo-orcamento">
                     <label for="firstname">Nome Completo</label>
                     <input type="text" name="name" id="name">
@@ -557,7 +557,7 @@ require('vendor/autoload.php');
                     <textarea id="descricao" name="descricao" placeholder="Descreva sua solicitação até 1000 caracteres" maxlength="1000" minlength="50" form="formularioinformacao" resizable="false"></textarea>
                 </div>
                 <div class="campo-orcamento-enviar">
-                    <input type="submit" value="Enviar" class="btn btn-border">
+                    <input type="submit" value="Enviar" class="btn disabled btn-secondary">
                 </div>
             </form>
 
