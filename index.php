@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 
 <?php
-require('vendor/autoload.php');
+// require('vendor/autoload.php');
 
 ?>
 
@@ -27,6 +27,7 @@ require('vendor/autoload.php');
 <body>
 
     <header class="cabecalho">
+        <div class="demo-content">DEMONSTRATION</div>
         <div class="logo-cabecalho">
             <img class="imagem-cabecalho" src="assets/img/logo.png" alt="Logo do Leandro Santos - Engenheiro de áudio">
             <div class="texto-cabecalho">
@@ -569,7 +570,7 @@ require('vendor/autoload.php');
             <p>Copyright Leandro Santos <?php echo date('Y'); ?>&copy;. Todos os direitos Reservados</p>
             <p>contato@leandrosmega.com</p>
         </div>
-        <small class="conteudo-footer-dev">desenvolvido por <a href="mailto:lucas.lima.rk@gmail.com">astatonn</a></small>
+        <small class="conteudo-footer-dev">desenvolvido por <a href="https://astatonn.com">astatonn</a></small>
 
         <small class="conteudo-footer-dev"><a href="privacidade.html" target="_blank">Privacidade </a>|<a href="termos_de_uso.html" target="_blank"> Termos de Uso</a></small>
     </footer>
