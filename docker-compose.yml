@@ -5,7 +5,7 @@ services:
       dockerfile: Dockerfile
     container_name: leandrosantosmega
     restart: always
-    expose:
+    ports:
       - "8081:80"
     networks:
       - laravel-network
