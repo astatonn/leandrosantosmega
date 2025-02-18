@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: meu-php-app
+    container_name: leandrosantosmega
     restart: always
     expose:
       - "8081"
