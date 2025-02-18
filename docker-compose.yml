@@ -1,12 +1,12 @@
 services:
-  meu-php-app:
+  leandrosantosmega:
     build:
       context: .
       dockerfile: Dockerfile
     container_name: leandrosantosmega
     restart: always
     expose:
-      - "8081"
+      - "8081:80"
     networks:
       - laravel-network
 
